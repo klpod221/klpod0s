@@ -20,6 +20,11 @@ if [ ! -d "$Zsh_Path" ]; then
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
+# install powerlevel10k theme
+if [ ! -d "$Zsh_Path"/custom/themes/powerlevel10k ]; then
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$Zsh_Path"/custom/themes/powerlevel10k
+fi
+
 # generate plugins from list
 while read -r r_plugin; do
     z_plugin=$(echo "$r_plugin" | awk -F '/' '{print $NF}')
