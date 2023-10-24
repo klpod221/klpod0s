@@ -44,10 +44,10 @@ while read -r pkg; do
         echo "$pkg is already installed..."
     elif pkg_available "$pkg"; then
         echo "queueing $pkg from arch repo..."
-        pkg_arch=`echo $pkg_arch "$pkg"`
+        pkg_arch+="$pkg "
     elif aur_available "$pkg"; then
         echo "queueing $pkg from aur repo..."
-        pkg_aur=`echo $pkg_aur "$pkg"`
+        pkg_aur+="$pkg "
     else
         echo "error: $pkg not found in arch or aur repo..."
     fi
@@ -55,10 +55,10 @@ done < <( cut -d '#' -f 1 "$install_list" )
 
 if [ -n "$pkg_arch" ]; then
     echo "installing ${pkg_arch} from arch repo..."
-    sudo pacman ${use_default} -S "$pkg_arch"
+    sudo pacman ${use_default} -S $pkg_arch
 fi
 
 if [ -n "$pkg_aur" ]; then
     echo "installing ${pkg_aur} from aur repo..."
-    $aurhlpr ${use_default} -S "$pkg_aur"
+    $aurhlpr ${use_default} -S $pkg_aur
 fi
