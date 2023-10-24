@@ -64,6 +64,8 @@ if nvidia_detect; then
     echo -e 'source = ~/.config/hypr/nvidia.conf # auto sourced vars for nvidia\n' >>"${HOME}"/.config/hypr/hyprland.conf
 fi
 
-./scripts/create_cache.sh
-./scripts/install_zsh.sh
-./scripts/install_lnk.sh
+bash ./scripts/create_cache.sh
+
+bash ./scripts/install_zsh.sh
+
+bash ./scripts/install_lnk.sh
