@@ -44,10 +44,10 @@ while read -r pkg; do
         echo "$pkg is already installed..."
     elif pkg_available "$pkg"; then
         echo "queueing $pkg from arch repo..."
-        pkg_arch=$(echo $pkg_arch "$pkg")
+        pkg_arch=`echo $pkg_arch "$pkg"`
     elif aur_available "$pkg"; then
         echo "queueing $pkg from aur repo..."
-        pkg_aur=$(echo $pkg_aur "$pkg")
+        pkg_aur=`echo $pkg_aur "$pkg"`
     else
         echo "error: $pkg not found in arch or aur repo..."
     fi
