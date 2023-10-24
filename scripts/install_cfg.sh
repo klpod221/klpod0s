@@ -68,4 +68,15 @@ fi
 
 ./scripts/install_zsh.sh
 
-./scripts/install_lnk.sh
+find "$CloneDir" -type l | while read -r slink; do
+    read_slink=$(readlink "$slink")
+    fixd_slink=$(echo "$read_slink" | awk -F '/.config/' '{print $NF}')
+    linkd_file=$(echo "$slink" | awk -F '/.config/' '{print $NF}')
+    echo "linking $HOME/.config/$linkd_file --> $HOME/.config/$fixd_slink..."
+    ln -fs $HOME/.config/$fixd_slink $HOME/.config/$linkd_file
+done
+
+if printenv HYPRLAND_INSTANCE_SIGNATURE &>/dev/null; then
+    echo "reloading hyprland..."
+    hyprctl reload
+fi
