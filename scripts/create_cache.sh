@@ -57,7 +57,7 @@ imagick_t2 () {
 
 export -f imagick_t2
 
-create thumbnails for each theme > wallpapers
+# create thumbnails for each theme > wallpapers
 for theme in ${ThemeList}
 do
     mkdir -p "${CacheDir}"/"${theme}"
