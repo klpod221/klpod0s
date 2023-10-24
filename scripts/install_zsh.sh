@@ -28,11 +28,6 @@ if [ ! -d "$Zsh_Path"/custom/themes/powerlevel10k ]; then
 
     # update zshrc with powerlevel10k theme
     sed -i "/^ZSH_THEME=/c\ZSH_THEME=\"powerlevel10k/powerlevel10k\"" "$Zsh_rc"
-
-    # run powerlevel10k wizard
-    echo "please run the powerlevel10k wizard to configure your theme..."
-    echo "source ~/.zshrc"
-    echo "p10k configure"
 else
     echo "powerlevel10k theme is already installed..."
 fi
