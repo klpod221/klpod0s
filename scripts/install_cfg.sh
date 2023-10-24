@@ -66,6 +66,4 @@ fi
 
 ./scripts/create_cache.sh
 
-# ./scripts/install_zsh.sh
-
 ./scripts/install_lnk.sh
