@@ -37,14 +37,16 @@ else
     echo "powerlevel10k theme is already installed..."
 fi
 
-# generate plugins from list
+# generate plugins from ./lists/zsh_plugins.lst
+plugin_list="${1:-./lists/zsh_plugin.lst}"
+
 while read -r r_plugin; do
     z_plugin=$(echo "$r_plugin" | awk -F '/' '{print $NF}')
     if [ "${r_plugin:0:4}" == "http" ] && [ ! -d "$Zsh_Plugins"/"$z_plugin" ]; then
         sudo git clone "$r_plugin" "$Zsh_Plugins"/"$z_plugin"
     fi
-        w_plugin=$($w_plugin "$z_plugin")
-done < <(cut -d '#' -f 1 ./lists/zsh_plugin.lst | sed 's/ //g')
+        w_plugin="$w_plugin $z_plugin"
+done < <( cut -d '#' -f 1 "$plugin_list" )
 
 # update plugin array in zshrc
 echo "intalling zsh plugins --> ${w_plugin}"
