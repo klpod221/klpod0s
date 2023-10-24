@@ -15,15 +15,15 @@ if pkg_installed sddm; then
 
     if [ ! -f /etc/sddm.conf.d/kde_settings.t2.bkp ]; then
         echo "configuring sddm..."
-        sudo tar -xzf "${CloneDir}"/source/arcs/Sddm_Corners.tar.gz -C /usr/share/sddm/themes/
+        sudo tar -xzf $CloneDir/source/arcs/Sddm_Corners.tar.gz -C /usr/share/sddm/themes/
         sudo touch /etc/sddm.conf.d/kde_settings.conf
         sudo cp /etc/sddm.conf.d/kde_settings.conf /etc/sddm.conf.d/kde_settings.t2.bkp
         sudo cp /usr/share/sddm/themes/corners/kde_settings.conf /etc/sddm.conf.d/
         setfacl -m u:sddm:x /home/"${USER}"
     fi
 
-    if [ ! -f /usr/share/sddm/faces/"${USER}".face.icon ] && [ -f ${CloneDir}/source/misc/"${USER}".face.icon ]; then
-        sudo cp "${CloneDir}"/source/misc/"${USER}".face.icon /usr/share/sddm/faces/
+    if [ ! -f /usr/share/sddm/faces/"${USER}".face.icon ] && [ -f $CloneDir/source/misc/"${USER}".face.icon ]; then
+        sudo cp $CloneDir/source/misc/"${USER}".face.icon /usr/share/sddm/faces/
         echo "avatar set for ${USER}..."
     fi
 
@@ -37,7 +37,7 @@ if pkg_installed grub; then
     if [ ! -f /etc/default/grub.t2.bkp ] && [ ! -f /boot/grub/grub.t2.bkp ]; then
         echo "configuring grub..."
         sudo cp /etc/default/grub /etc/default/grub.t2.bkp
-        sudo tar -xzf "${CloneDir}"/source/arcs/Grub_Pochita.tar.gz -C /usr/share/grub/themes/
+        sudo tar -xzf $CloneDir/source/arcs/Grub_Pochita.tar.gz -C /usr/share/grub/themes/
 
         if nvidia_detect; then
             sudo sed -i "/^GRUB_CMDLINE_LINUX_DEFAULT=/c\GRUB_CMDLINE_LINUX_DEFAULT=\"loglevel=3 quiet splash nvidia_drm.modeset=1\"" /etc/default/grub

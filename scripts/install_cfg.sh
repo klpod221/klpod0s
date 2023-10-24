@@ -10,7 +10,7 @@ if [ $? -ne 0 ]; then
 fi
 
 CfgDir=${CloneDir}/configs
-BkpDir="${HOME}/.config/$(date +'cfg_%y%m%d_%Hh%Mm%Ss')"
+BkpDir="$HOME/.config/$(date +'cfg_%y%m%d_%Hh%Mm%Ss')"
 
 if [ -d "$BkpDir" ]; then
     echo "ERROR : $BkpDir exists!"

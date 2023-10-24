@@ -21,7 +21,7 @@ do
         echo "${tgt} directory created..."
     fi
 
-    sudo tar -xzf ${CloneDir}/source/arcs/${fnt}.tar.gz -C ${tgt}/
+    sudo tar -xzf $CloneDir/source/arcs/${fnt}.tar.gz -C ${tgt}/
     echo "uncompressing ${fnt}.tar.gz --> ${tgt}..."
 
 done
