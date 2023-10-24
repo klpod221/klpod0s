@@ -97,7 +97,7 @@ EOF
     #--------------------------------#
     # install packages from the list #
     #--------------------------------#
-    ./scripts/install_pkg.sh ./lists/install_pkg.lst 2>&1
+    ./scripts/pkg_installer.sh ./lists/install_pkg.lst 2>&1
 
     rm ./lists/install_pkg.lst
 
