@@ -25,7 +25,7 @@ fi
 # evaluate options #
 #------------------#
 flg_Install=0
-flg_Restore=0
+flg_Ricing=0
 flg_Service=0
 
 while getopts idrs RunStep; do
@@ -35,7 +35,7 @@ while getopts idrs RunStep; do
         flg_Install=1
         export use_default="--noconfirm"
         ;;
-    r) flg_Restore=1 ;;
+    r) flg_Ricing=1 ;;
     s) flg_Service=1 ;;
     *)
         echo "...valid options are..."
@@ -50,7 +50,7 @@ done
 
 if [ $OPTIND -eq 1 ]; then
     flg_Install=1
-    flg_Restore=1
+    flg_Ricing=1
     flg_Service=1
 fi
 
@@ -107,7 +107,7 @@ fi
 #----------------------------#
 # ricing with custom configs #
 #----------------------------#
-if [ $flg_Restore -eq 1 ]; then
+if [ $flg_Ricing -eq 1 ]; then
     cat <<"EOF"
      
      _     _         
@@ -127,7 +127,7 @@ fi
 #---------------------------#
 # update sddm, grub and zsh #
 #---------------------------#
-if [ $flg_Install -eq 1 ] && [ $flg_Restore -eq 1 ]; then
+if [ $flg_Install -eq 1 ] && [ $flg_Ricing -eq 1 ]; then
     ./scripts/install_etc.sh
 fi
 

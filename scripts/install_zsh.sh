@@ -17,7 +17,7 @@ if ! pkg_installed zsh; then
 fi
 
 if [ ! -d "$Zsh_Path" ]; then
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
 fi
 
 # install powerlevel10k theme
