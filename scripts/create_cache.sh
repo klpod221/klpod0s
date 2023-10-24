@@ -67,4 +67,3 @@ do
     echo "Creating thumbnails for ${theme} [${#wpArray[@]}]"
     parallel --bar imagick_t2 ::: "${wpArray[@]}"
 done
-
