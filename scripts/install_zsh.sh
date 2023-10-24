@@ -17,12 +17,16 @@ if ! pkg_installed zsh; then
 fi
 
 if [ ! -d "$Zsh_Path" ]; then
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+else
+    echo "oh-my-zsh is already installed..."
 fi
 
 # install powerlevel10k theme
 if [ ! -d "$Zsh_Path"/custom/themes/powerlevel10k ]; then
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$Zsh_Path"/custom/themes/powerlevel10k
+else
+    echo "powerlevel10k theme is already installed..."
 fi
 
 # generate plugins from list
