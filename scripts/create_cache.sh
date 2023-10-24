@@ -57,14 +57,14 @@ imagick_t2 () {
 
 export -f imagick_t2
 
-# create thumbnails for each theme > wallpapers
-# for theme in ${ThemeList}
-# do
-#     mkdir -p "${CacheDir}"/"${theme}"
+create thumbnails for each theme > wallpapers
+for theme in ${ThemeList}
+do
+    mkdir -p "${CacheDir}"/"${theme}"
 
-#     # Map all wallpapers from the theme to an array with -print0, in case someone decided to use spaces
-#     mapfile -d '' wpArray < <(find "${SwwwPath}"/"${theme}" -type f -print0)
-#     echo "Creating thumbnails for ${theme} [${#wpArray[@]}]"
-#     parallel --bar imagick_t2 ::: "${wpArray[@]}"
-# done
+    # Map all wallpapers from the theme to an array with -print0, in case someone decided to use spaces
+    mapfile -d '' wpArray < <(find "${SwwwPath}"/"${theme}" -type f -print0)
+    echo "Creating thumbnails for ${theme} [${#wpArray[@]}]"
+    parallel --bar imagick_t2 ::: "${wpArray[@]}"
+done
 
