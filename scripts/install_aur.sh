@@ -18,25 +18,25 @@ if pkg_installed yay || pkg_installed paru; then
 fi
 
 # create Clone directory if it doesn't exist
-if [ -d "$HOME"/Clone ]; then
+if [ -d $HOME/Clone ]; then
     echo "$HOME/Clone directory exists..."
-    rm -rf "$HOME"/Clone/"$aurhlpr"
+    rm -rf $HOME/Clone/$aurhlpr
 else
-    mkdir "$HOME"/Clone
-    echo -e "[Desktop Entry]\nIcon=default-folder-git" >"$HOME"/Clone/.directory
+    mkdir $HOME/Clone
+    echo -e "[Desktop Entry]\nIcon=default-folder-git" > $HOME/Clone/.directory
     echo "$HOME/Clone directory created..."
 fi
 
 # clone aur helper from aur
 if pkg_installed git; then
-    git clone https://aur.archlinux.org/"$aurhlpr".git "$HOME"/Clone/"$aurhlpr"
+    git clone https://aur.archlinux.org/"$aurhlpr".git $HOME/Clone/$aurhlpr
 else
     echo "git dependency is not installed..."
     exit 1
 fi
 
 # install aur helper
-cd "$HOME"/Clone/"$aurhlpr" || exit
+cd $HOME/Clone/$aurhlpr || exit
 makepkg ${use_default} -si
 
 # check if aur helper is installed
