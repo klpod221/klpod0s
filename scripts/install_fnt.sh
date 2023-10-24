@@ -12,7 +12,7 @@ fi
 cat ./lists/install_fnt.lst | while read lst;
 do
 
-        fnt=`echo $lst | awk -F '|' '{print $1}'`
+    fnt=`echo $lst | awk -F '|' '{print $1}'`
     tgt=`echo $lst | awk -F '|' '{print $2}'`
     tgt=`eval "echo $tgt"`
 
@@ -22,7 +22,7 @@ do
         echo "${tgt} directory created..."
     fi
 
-    sudo tar -xzf ${CloneDir}/Source/arcs/${fnt}.tar.gz -C ${tgt}/
+    sudo tar -xzf ${CloneDir}/source/arcs/${fnt}.tar.gz -C ${tgt}/
     echo "uncompressing ${fnt}.tar.gz --> ${tgt}..."
 
 done
