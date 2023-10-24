@@ -45,6 +45,7 @@ makepkg ${use_default} -si
 
 # check if aur helper is installed
 if [ $? -eq 0 ]; then
+    $aurhlpr -Syyu
     echo "$aurhlpr aur helper installed..."
     exit 0
 else

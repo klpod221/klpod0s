@@ -55,7 +55,7 @@ cat ./lists/install_cfg.lst | while read -r lst; do
         fi
 
         cp -r "$CfgDir""$tgt"/"$cfg_chk" "$pth"
-        echo "config restored ${pth} <-- $CfgDir$tgt/$cfg_chk..."
+        echo "config installed ${pth} <-- $CfgDir$tgt/$cfg_chk..."
     done
 
 done
