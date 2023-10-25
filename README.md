@@ -110,8 +110,6 @@ To add your own custom theme, please refer [theming.md](https://github.com/klpod
 | ![Gruvbox-Retro#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_gruvbox_1.png) |
 | ![Gruvbox-Retro#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_gruvbox_2.png) |
 
-</div>
-
 ## Styles
 
 |                                              Theme Select                                               |
@@ -148,8 +146,6 @@ To add your own custom theme, please refer [theming.md](https://github.com/klpod
 | ![Game Launchers#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/game_launch_2.png) |
 | ![Game Launchers#3](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/game_launch_3.png) |
 | ![Game Launchers#4](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/game_launch_4.png) |
-
-</div>
 
 ## Packages
 
@@ -253,8 +249,6 @@ To add your own custom theme, please refer [theming.md](https://github.com/klpod
     <tr><td>pokemon-colorscripts-git</td><td>display pokemon sprites</td></tr></table>
 </td></tr></table>
 
-</div>
-
 ## Keybindings
 
 | Keys                                                                                                     | Action                                            |
@@ -301,8 +295,6 @@ To add your own custom theme, please refer [theming.md](https://github.com/klpod
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>                                                       | theme select menu                                 |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>                                                       | wallpaper select menu                             |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>                                                       | rofi style select menu                            |
-
-</div>
 
 ## Known Issues
 
