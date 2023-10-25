@@ -110,10 +110,6 @@ To add your own custom theme, please refer [theming.md](https://github.com/klpod
 | ![Gruvbox-Retro#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_gruvbox_1.png) |
 | ![Gruvbox-Retro#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_gruvbox_2.png) |
 
-<div align = right> <br><br>
-
-[<kbd> <br> Top <br> </kbd>](#-design-by-t2)
-
 </div>
 
 ## Styles
