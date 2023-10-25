@@ -60,78 +60,78 @@ To add your own custom theme, please refer [theming.md](https://github.com/klpod
   - [x] Frosted-Glass by T-Crypt
   - [x] Gruvbox-Retro by T-Crypt
 
-| Catppuccin-Mocha |
-| :-: |
+|                                                Catppuccin-Mocha                                                |
+| :------------------------------------------------------------------------------------------------------------: |
 | ![Catppuccin-Mocha#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_mocha_1.png) |
 | ![Catppuccin-Mocha#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_mocha_2.png) |
 
-| Catppuccin-Latte |
-| :-: |
+|                                                Catppuccin-Latte                                                |
+| :------------------------------------------------------------------------------------------------------------: |
 | ![Catppuccin-Latte#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_latte_1.png) |
 | ![Catppuccin-Latte#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_latte_2.png) |
 
-| Decay-Green |
-| :-: |
+|                                                Decay-Green                                                |
+| :-------------------------------------------------------------------------------------------------------: |
 | ![Decay-Green#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_decay_1.png) |
 | ![Decay-Green#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_decay_2.png) |
 
-| Rosé-Pine |
-| :-: |
+|                                                Rosé-Pine                                                 |
+| :------------------------------------------------------------------------------------------------------: |
 | ![Rosé-Pine#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_rosine_1.png) |
 | ![Rosé-Pine#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_rosine_2.png) |
 
-| Tokyo-Night |
-| :-: |
+|                                                Tokyo-Night                                                |
+| :-------------------------------------------------------------------------------------------------------: |
 | ![Tokyo-Night#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_tokyo_1.png) |
 | ![Tokyo-Night#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_tokyo_2.png) |
 
-| Material-Sakura |
-| :-: |
+|                                                Material-Sakura                                                |
+| :-----------------------------------------------------------------------------------------------------------: |
 | ![Material-Sakura#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_maura_1.png) |
 | ![Material-Sakura#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_maura_2.png) |
 
-| Graphite-Mono |
-| :-: |
+|                                                Graphite-Mono                                                |
+| :---------------------------------------------------------------------------------------------------------: |
 | ![Graphite-Mono#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_graph_1.png) |
 | ![Graphite-Mono#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_graph_2.png) |
 
-| Cyberpunk-Edge |
-| :-: |
+|                                                Cyberpunk-Edge                                                |
+| :----------------------------------------------------------------------------------------------------------: |
 | ![Cyberpunk-Edge#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_cedge_1.png) |
 | ![Cyberpunk-Edge#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_cedge_2.png) |
 
-| Frosted-Glass |
-| :-: |
+|                                                 Frosted-Glass                                                 |
+| :-----------------------------------------------------------------------------------------------------------: |
 | ![Frosted-Glass#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_frosted_1.png) |
 | ![Frosted-Glass#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_frosted_2.png) |
 
-| Gruvbox-Retro |
-| :-: |
+|                                                 Gruvbox-Retro                                                 |
+| :-----------------------------------------------------------------------------------------------------------: |
 | ![Gruvbox-Retro#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_gruvbox_1.png) |
 | ![Gruvbox-Retro#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_gruvbox_2.png) |
-
 
 <div align = right> <br><br>
 
 [<kbd> <br> Top <br> </kbd>](#-design-by-t2)
+
 </div>
 
 ## Styles
 
-| Theme Select |
-| :-: |
+|                                              Theme Select                                               |
+| :-----------------------------------------------------------------------------------------------------: |
 | ![Theme Select](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/theme_select.png) |
 
-| Wallpaper Select |
-| :-: |
+|                                              Wallpaper Select                                               |
+| :---------------------------------------------------------------------------------------------------------: |
 | ![Wallpaper Select](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/walls_select.png) |
 
-| Launcher Style Select |
-| :-: |
+|                                               Launcher Style Select                                                |
+| :----------------------------------------------------------------------------------------------------------------: |
 | ![Launcher Style Select](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/rofi_style_sel.png) |
 
-| Launcher Styles |
-| :-: |
+|                                             Launcher Styles                                             |
+| :-----------------------------------------------------------------------------------------------------: |
 | ![rofi style#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/rofi_style_1.png) |
 | ![rofi style#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/rofi_style_2.png) |
 | ![rofi style#3](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/rofi_style_3.png) |
@@ -141,22 +141,22 @@ To add your own custom theme, please refer [theming.md](https://github.com/klpod
 | ![rofi style#7](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/rofi_style_7.png) |
 | ![rofi style#8](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/rofi_style_8.png) |
 
-| Wlogout Menu |
-| :-: |
+|                                               Wlogout Menu                                                |
+| :-------------------------------------------------------------------------------------------------------: |
 | ![Wlogout Menu#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/wlog_style_1.png) |
 | ![Wlogout Menu#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/wlog_style_2.png) |
 
-| Game Launchers |
-| :-: |
+|                                                Game Launchers                                                |
+| :----------------------------------------------------------------------------------------------------------: |
 | ![Game Launchers#1](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/game_launch_1.png) |
 | ![Game Launchers#2](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/game_launch_2.png) |
 | ![Game Launchers#3](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/game_launch_3.png) |
 | ![Game Launchers#4](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/game_launch_4.png) |
 
-
 <div align = right> <br><br>
 
 [<kbd> <br> Top <br> </kbd>](#-design-by-t2)
+
 </div>
 
 ## Packages
@@ -224,11 +224,11 @@ To add your own custom theme, please refer [theming.md](https://github.com/klpod
     <tr><td>ffmpegthumbs</td><td>for dolphin video thumbnails</td></tr>
     <tr><td>brightnessctl</td><td>brightness control for laptop</td></tr>
     <tr><td>pavucontrol</td><td>audio settings gui</td></tr>
-    <tr><td>pamixer</td><td>for waybar audio</td></tr></table>
+    <tr><td>pamixer</td><td>for waybar audio</td></tr>
     <tr><td>fcitx5</td><td>for input method</td></tr>
     <tr><td>fcitx5-qt</td><td>for input method</td></tr>
     <tr><td>fcitx5-gtk</td><td>for input method</td></tr>
-    <tr><td>fcitx5-configtool</td><td>for input method</td></tr>
+    <tr><td>fcitx5-configtool</td><td>for input method</td></tr></table>
 </td></tr></table>
 
 <table><tr><td>
@@ -261,63 +261,63 @@ To add your own custom theme, please refer [theming.md](https://github.com/klpod
     <tr><td>pokemon-colorscripts-git</td><td>display pokemon sprites</td></tr></table>
 </td></tr></table>
 
-
 <div align = right> <br><br>
 
 [<kbd> <br> Top <br> </kbd>](#-design-by-t2)
+
 </div>
 
 ## Keybindings
 
-| Keys | Action |
-| :--  | :-- |
-| <kbd>Super</kbd> + <kbd>Q</kbd> | quit active/focused window
-| <kbd>Alt</kbd> + <kbd>F4</kbd> | quit active/focused window
-| <kbd>Super</kbd> + <kbd>Del</kbd> | quit hyprland session
-| <kbd>Super</kbd> + <kbd>W</kbd> | toggle window on focus to float
-| <kbd>Alt</kbd> + <kbd>Enter</kbd> | toggle window on focus to fullscreen
-| <kbd>Super</kbd> + <kbd>J</kbd> | toggle layout
-| <kbd>Super</kbd> + <kbd>G</kbd> | toggle window group
-| <kbd>Super</kbd> + <kbd>T</kbd> | launch kitty terminal
-| <kbd>Super</kbd> + <kbd>E</kbd> | launch dolphin file explorer
-| <kbd>Super</kbd> + <kbd>C</kbd> | launch vscode
-| <kbd>Super</kbd> + <kbd>B</kbd> | launch brave browser
-| <kbd>Super</kbd> + <kbd>A</kbd> | launch desktop applications (rofi)
-| <kbd>Super</kbd> + <kbd>Tab</kbd> | switch open applications (rofi)
-| <kbd>Super</kbd> + <kbd>R</kbd> | browse system files (rofi)
-| <kbd>F10</kbd> | mute audio output (toggle)
-| <kbd>F11</kbd> | decrease volume (hold)
-| <kbd>F12</kbd> | increase volume (hold)
-| <kbd>Super</kbd> + <kbd>V</kbd> | clipboard history paste
-| <kbd>Super</kbd> + <kbd>L</kbd> | lock screen
-| <kbd>Super</kbd> + <kbd>Backspace</kbd> | logout menu
-| <kbd>Super</kbd> + <kbd>K</kbd> | switch keyboard layout
-| <kbd>Super</kbd> + <kbd>P</kbd> | drag to select area or click on a window to print
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>P</kbd> | print current screen
-| <kbd>Super</kbd> + <kbd>RightClick</kbd> | resize the window
-| <kbd>Super</kbd> + <kbd>LeftClick</kbd> | change the window position
-| <kbd>Super</kbd> + <kbd>MouseScroll</kbd> | cycle through workspaces
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>| resize windows (hold)
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>| move active window within the current workspace
-| <kbd>Super</kbd> + <kbd>[0-9]</kbd> | switch to workspace [0-9]
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>[0-9]</kbd> | move active window to workspace [0-9]
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>[0-9]</kbd> | move active window to workspace [0-9] (silently)
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> | move window to special workspace
-| <kbd>Super</kbd> + <kbd>S</kbd> | toogle to special workspace
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd> | disable hypr effects for gamemode
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>→</kbd> | next wallpaper
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>←</kbd> | previous wallpaper
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd> | next waybar mode
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>↓</kbd> | previous waybar mode
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd> | toggle (theme <//> wall) based colors
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> | theme select menu
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd> | wallpaper select menu
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd> | rofi style select menu
-
+| Keys                                                                                                     | Action                                            |
+| :------------------------------------------------------------------------------------------------------- | :------------------------------------------------ |
+| <kbd>Super</kbd> + <kbd>Q</kbd>                                                                          | quit active/focused window                        |
+| <kbd>Alt</kbd> + <kbd>F4</kbd>                                                                           | quit active/focused window                        |
+| <kbd>Super</kbd> + <kbd>Del</kbd>                                                                        | quit hyprland session                             |
+| <kbd>Super</kbd> + <kbd>W</kbd>                                                                          | toggle window on focus to float                   |
+| <kbd>Alt</kbd> + <kbd>Enter</kbd>                                                                        | toggle window on focus to fullscreen              |
+| <kbd>Super</kbd> + <kbd>J</kbd>                                                                          | toggle layout                                     |
+| <kbd>Super</kbd> + <kbd>G</kbd>                                                                          | toggle window group                               |
+| <kbd>Super</kbd> + <kbd>T</kbd>                                                                          | launch kitty terminal                             |
+| <kbd>Super</kbd> + <kbd>E</kbd>                                                                          | launch dolphin file explorer                      |
+| <kbd>Super</kbd> + <kbd>C</kbd>                                                                          | launch vscode                                     |
+| <kbd>Super</kbd> + <kbd>B</kbd>                                                                          | launch brave browser                              |
+| <kbd>Super</kbd> + <kbd>A</kbd>                                                                          | launch desktop applications (rofi)                |
+| <kbd>Super</kbd> + <kbd>Tab</kbd>                                                                        | switch open applications (rofi)                   |
+| <kbd>Super</kbd> + <kbd>R</kbd>                                                                          | browse system files (rofi)                        |
+| <kbd>F10</kbd>                                                                                           | mute audio output (toggle)                        |
+| <kbd>F11</kbd>                                                                                           | decrease volume (hold)                            |
+| <kbd>F12</kbd>                                                                                           | increase volume (hold)                            |
+| <kbd>Super</kbd> + <kbd>V</kbd>                                                                          | clipboard history paste                           |
+| <kbd>Super</kbd> + <kbd>L</kbd>                                                                          | lock screen                                       |
+| <kbd>Super</kbd> + <kbd>Backspace</kbd>                                                                  | logout menu                                       |
+| <kbd>Super</kbd> + <kbd>K</kbd>                                                                          | switch keyboard layout                            |
+| <kbd>Super</kbd> + <kbd>P</kbd>                                                                          | drag to select area or click on a window to print |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>P</kbd>                                                         | print current screen                              |
+| <kbd>Super</kbd> + <kbd>RightClick</kbd>                                                                 | resize the window                                 |
+| <kbd>Super</kbd> + <kbd>LeftClick</kbd>                                                                  | change the window position                        |
+| <kbd>Super</kbd> + <kbd>MouseScroll</kbd>                                                                | cycle through workspaces                          |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>                   | resize windows (hold)                             |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd> | move active window within the current workspace   |
+| <kbd>Super</kbd> + <kbd>[0-9]</kbd>                                                                      | switch to workspace [0-9]                         |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>[0-9]</kbd>                                                   | move active window to workspace [0-9]             |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>[0-9]</kbd>                                                     | move active window to workspace [0-9] (silently)  |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>                                                         | move window to special workspace                  |
+| <kbd>Super</kbd> + <kbd>S</kbd>                                                                          | toogle to special workspace                       |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd>                                                         | disable hypr effects for gamemode                 |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>→</kbd>                                                         | next wallpaper                                    |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>←</kbd>                                                         | previous wallpaper                                |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd>                                                         | next waybar mode                                  |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>↓</kbd>                                                         | previous waybar mode                              |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>                                                       | toggle (theme <//> wall) based colors             |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>                                                       | theme select menu                                 |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>                                                       | wallpaper select menu                             |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>                                                       | rofi style select menu                            |
 
 <div align = right> <br><br>
 
 [<kbd> <br> Top <br> </kbd>](#-design-by-t2)
+
 </div>
 
 ## Known Issues
