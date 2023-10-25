@@ -153,10 +153,6 @@ To add your own custom theme, please refer [theming.md](https://github.com/klpod
 | ![Game Launchers#3](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/game_launch_3.png) |
 | ![Game Launchers#4](https://raw.githubusercontent.com/klpod221/klpod0s/main/source/assets/game_launch_4.png) |
 
-<div align = right> <br><br>
-
-[<kbd> <br> Top <br> </kbd>](#-design-by-t2)
-
 </div>
 
 ## Packages
@@ -261,10 +257,6 @@ To add your own custom theme, please refer [theming.md](https://github.com/klpod
     <tr><td>pokemon-colorscripts-git</td><td>display pokemon sprites</td></tr></table>
 </td></tr></table>
 
-<div align = right> <br><br>
-
-[<kbd> <br> Top <br> </kbd>](#-design-by-t2)
-
 </div>
 
 ## Keybindings
@@ -313,10 +305,6 @@ To add your own custom theme, please refer [theming.md](https://github.com/klpod
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>                                                       | theme select menu                                 |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>                                                       | wallpaper select menu                             |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>                                                       | rofi style select menu                            |
-
-<div align = right> <br><br>
-
-[<kbd> <br> Top <br> </kbd>](#-design-by-t2)
 
 </div>
 
