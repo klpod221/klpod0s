@@ -2,4 +2,4 @@ git                                                                 # alias and 
 sudo                                                                # press ESC key twice to execute command with sudo prefix 
 https://github.com/chrissicool/zsh-256color                         # enhance terminal environment with 256 colors
 https://github.com/zsh-users/zsh-autosuggestions                    # suggests commands as you type based on history
-https://github.com/zsh-users/zsh-syntax-highlighting                # highlights commands as you type
+https://github.com/zdharma-continuum/fast-syntax-highlighting       # highlights commands as you type
