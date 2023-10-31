@@ -1,5 +1,4 @@
 ${HOME}|.zshrc .p10k.zsh|zsh pokemon-colorscripts-git
-${HOME}/.config/Code/User|settings.json|visual-studio-code-bin
 ${HOME}/.config|dunst|dunst
 ${HOME}/.config/hypr|animations.conf hyprland.conf keybindings.conf windowrules.conf scripts themes wallbash|hyprland
 ${HOME}/.config|kitty|kitty
