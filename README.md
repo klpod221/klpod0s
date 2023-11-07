@@ -1,8 +1,11 @@
-# --// klpod0s //--
-
-<p align="center">
-  <img width="250" src="https://raw.githubusercontent.com/klpod221/klpod0s/main/source/concepts/arch.svg">   
-</p>
+<div align="center">
+  <h1>--// klpod0s //--</h1>
+  <img width="250" src="https://raw.githubusercontent.com/klpod221/klpod0s/main/source/concepts/arch.svg">
+  <br>
+  <img src="https://img.shields.io/github/last-commit/klpod221/klpod0s?style=for-the-badge&color=ffb4a2&labelColor=201a19">
+  <img src="https://img.shields.io/github/stars/klpod221/klpod0s?style=for-the-badge&color=e6c419&labelColor=1d1b16">
+  <img src="https://img.shields.io/github/repo-size/klpod221/klpod0s?style=for-the-badge&color=a8c7ff&labelColor=1a1b1f">
+</div>
 
 ## About
 
